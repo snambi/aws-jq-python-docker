@@ -5,6 +5,6 @@ Docker file with python, pip, aws and
 `docker build -t training:1.0`
 
 # run the container from image
-`docker run training:1.0 -i -t /bin/bash`
+`docker run -t -i training:1.0 /bin/bash`
 
 
