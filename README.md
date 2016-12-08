@@ -2,9 +2,9 @@
 Docker file with python, pip, aws and 
 
 # Build the image
-`docker build -t training/1.0`
+`docker build -t training:1.0`
 
 # run the container from image
-`docker run -i -t /bin/bash`
+`docker run training:1.0 -i -t /bin/bash`
 
 
